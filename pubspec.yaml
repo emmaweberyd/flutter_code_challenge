@@ -1,0 +1,36 @@
+name: flutter_code_challenge
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_hooks: ^0.20.3
+  growable_text: ^0.0.5
+  mockito: ^5.4.4
+  provider: ^6.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - lib/assets/die1.png
+    - lib/assets/die2.png
+    - lib/assets/die3.png
+    - lib/assets/die4.png
+    - lib/assets/die5.png
+    - lib/assets/die6.png   
+    - lib/assets/die1grey.png
+    - lib/assets/die2grey.png
+    - lib/assets/die3grey.png
+    - lib/assets/die4grey.png
+    - lib/assets/die5grey.png
+    - lib/assets/die6grey.png 
